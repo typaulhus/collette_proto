@@ -1,0 +1,45 @@
+// Components
+
+// blockList
+.blockList {
+	background-color: #E0E0E0;
+	@include border-radius(4px);
+	padding: 1em;
+	h3 {
+		border-bottom: 3px solid #333;
+		margin: 0 0 .5em 0;
+	}
+	list-style-type: none;
+}
+
+//layout 1 ???
+.refinePanel {
+	//padding: 20px;
+}
+
+.refiner {
+	background-color: $olive;
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	}//end .refiner
+
+
+	/*  Navigation  */
+.site-header {
+	background-color: $collette-1-green;
+	color: #fff;
+	padding: .5em;
+	a {
+		//background-color: $collette-1-blue;
+		color: #fff;
+		height: 100%;
+		margin: 0 1em;
+		padding: .5em;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

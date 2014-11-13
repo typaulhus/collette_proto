@@ -1,0 +1,43 @@
+// styles for styleguide pages only.
+
+.sideNav {
+  float: left;
+  width: 20%;
+}
+
+.colorpalette {
+	clear: both;
+	margin-top: 1em;
+	h5 {
+		margin-bottom: .3em;
+	}
+}
+
+.colorBlocks {
+	color: #fff;
+	display: inline-block;
+	margin-right: 1em;
+	padding: .5em;
+	height: 200px;
+	width: 200px;
+	p { margin-bottom: .2em; }
+	&[data-color="green"] {
+		background-color: $collette-1-green;
+	}
+	&[data-color="blue"] {
+		background-color: $collette-1-blue;
+	}
+	&[data-color="orange"] {
+		background-color: $collette-2-orange;
+	}
+	&[data-color="purple"] {
+		background-color: $collette-2-purple;
+	}
+	&[data-color="ltBlue"] {
+		background-color: $collette-2-blue;
+	}
+	&[data-color="bg"] {
+		background-color: $collette-3-bg;
+		color: $primary-color;
+	}
+}

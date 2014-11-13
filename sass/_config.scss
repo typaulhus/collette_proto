@@ -1,0 +1,52 @@
+// Consistent settings
+$br: 5px; // Border-radius
+$btn-br: 5px; // Button border-radius
+$padding: 40px; // Padding and margins
+$line-height: 44px; // Consistent height for buttons, inputs etc.
+
+// Responsive breakpoints
+$small-break: 480px;
+$big-break: 780px;
+
+// Better default colors
+// Cool
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$teal:  #39CCCC;
+$green: #7DCA31;
+$olive: #3D9970;
+$lime:  #01FF70;
+// Warm
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$red:     #FF4136;
+$fuchsia: #F012BE;
+$purple:  #B10DC9;
+$maroon:  #85144B;
+// Gray Scale
+$white:  #fff;
+$silver: #ddd;
+$grey:   #aaa;
+$black:  #111;
+
+//Collette colors
+$collette-1-green: #026937;
+$collette-1-blue: #004A97;
+$collette-2-orange: #FF6B1F;
+$collette-2-purple: #9A3CBB;
+$collette-2-blue: #2F7DE1;
+$collette-3-bg: #CDE1D8;
+
+// Color variables
+$primary-color: $collette-1-green; //#1271db;
+$secondary-color: $collette-1-blue; //#233E5B;
+$cta-color: $collette-2-orange;
+$tertiary-color: #aaa;
+
+
+$bad-color: $red; // Bad color for errors, validation etc.
+$good-color: $green; // Good color for success etc.
+$info-color: $blue; // Good color for success etc.
+$warning-color: $orange; // Good color for success etc.
+$subtle-color: $grey; // Subtle color for subtle text
